@@ -1,0 +1,14 @@
+ORM-->Object Rlational Mapper.it's a way to communicate with db with our code editor.
+prisma is a ORM.
+prisma support sql and non-sql databases.
+
+step:
+npm init -y
+npm i prisma
+npx prisma
+npx prisma init
+npm install @prisma/client
+npx prisma migrate dev --name WRITE_NAME (for migration)
+
+
+npx prisma generate(for generate client)
